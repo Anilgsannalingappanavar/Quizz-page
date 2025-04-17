@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question" class="question">Question will go here</div>
+            <div id="answer-button" class="btn-grid">
+                <!-- Answer buttons will be injected here by JS -->
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+
+        <div class="score">
+            <strong>Score:</strong> <span id="right-answer">0</span>
+        </div>
+    </div>
+
+    <!-- Place your script at the end so the DOM is fully loaded before JS runs -->
+    <script src="script.js"></script>
+</body>
+</html>
